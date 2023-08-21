@@ -13,7 +13,7 @@ public class Main {
         System.out.println("*********************************************");
 
         Stream<String> stream = Arrays.stream(s.split(",",3));
-        stream.forEachOrdered(System.out::println)ж
+        stream.forEachOrdered(System.out::println);
     }
 
 
